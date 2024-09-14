@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   summary:
     "I work mostly with TypeScript, React, AdonisJS, and PostgreSQL. I have over 4 years of experience working on personal projects and contributing to open-source projects.",
   avatarUrl: "https://avatars.githubusercontent.com/u/89652886?v=4",
-  personalWebsiteUrl: "https://riveur.me",
+  personalWebsiteUrl: "https://riveur.com",
   contact: {
     email: "riveur.cpy@gmail.com",
     social: [
@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       logo: PaladiumProfileTrackerLogo,
       link: {
         label: "github.com",
-        href: "https://brominee.github.io/PaladiumClicker",
+        href: "https://palatracker.bromine.fr",
       },
     },
   ],

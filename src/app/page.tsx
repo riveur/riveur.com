@@ -1,17 +1,34 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { CommandMenu } from "@/components/command-menu";
+
+import { GlobeIcon, MailIcon } from "lucide-react";
 import { Metadata } from "next";
-import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { RESUME_DATA } from "@/data/resume-data";
+
+import { CommandMenu } from "@/components/command-menu";
 import { ProjectCard } from "@/components/project-card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Section } from "@/components/ui/section";
+import { RESUME_DATA } from "@/data/resume-data";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
+  themeColor: "#ffffff",
+  keywords: ["developer", "web developer", "typescript", "react", "adonisjs", "postgresql"],
+  openGraph: {
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+    description: RESUME_DATA.summary,
+    url: RESUME_DATA.personalWebsiteUrl,
+    type: 'profile',
+    images: [
+      RESUME_DATA.avatarUrl
+    ],
+  },
+  twitter: {
+    images: [
+      RESUME_DATA.avatarUrl
+    ]
+  }
 };
 
 export default function Page() {
