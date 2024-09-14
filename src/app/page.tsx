@@ -1,6 +1,6 @@
 
 import { GlobeIcon, MailIcon } from "lucide-react";
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
 
 import { CommandMenu } from "@/components/command-menu";
 import { ProjectCard } from "@/components/project-card";
@@ -13,7 +13,6 @@ import { RESUME_DATA } from "@/data/resume-data";
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
-  themeColor: "#ffffff",
   keywords: ["developer", "web developer", "typescript", "react", "adonisjs", "postgresql"],
   openGraph: {
     title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -30,6 +29,10 @@ export const metadata: Metadata = {
     ]
   }
 };
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
+}
 
 export default function Page() {
   return (
