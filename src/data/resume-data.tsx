@@ -1,4 +1,4 @@
-import { GitHubIcon, XIcon } from "@/components/icons";
+import { DiscordIcon, GitHubIcon, XIcon } from "@/components/icons";
 import {
   PaladiumProfileTrackerLogo,
   PalaGuideBotLogo
@@ -28,6 +28,11 @@ export const RESUME_DATA = {
         url: "https://x.com/Riveur_",
         icon: XIcon,
       },
+      {
+        name: "Discord",
+        url: "https://discord.com/users/339809990527156224",
+        icon: DiscordIcon,
+      }
     ],
   },
   skills: [
