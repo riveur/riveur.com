@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
-import "./globals.css";
 import React from "react";
+
+import { cn } from "@/lib/utils";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={cn(inter.className, 'dark')}>
       <body>{children}</body>
     </html>
   );
