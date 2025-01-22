@@ -1,5 +1,6 @@
 import { DiscordIcon, GitHubIcon, XIcon } from "@/components/icons";
 import {
+  ClearFrameLogo,
   PaladiumProfileTrackerLogo,
   PalaGuideBotLogo
 } from "@/images/logos";
@@ -74,6 +75,23 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://palatracker.bromine.fr",
+      },
+    },
+    {
+      title: "Clear Frame",
+      techStack: [
+        "Fullstack Developer",
+        "TypeScript",
+        "React",
+        "AdonisJS",
+        "SQLite",
+      ],
+      description:
+        "This application transform your screen into an informative and visually appealing display",
+      logo: ClearFrameLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/riveur/clear-frame",
       },
     },
   ],
