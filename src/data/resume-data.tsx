@@ -6,7 +6,7 @@ import {
 } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Riveur",
+  name: "Riveur 🦈",
   initials: "Le R",
   location: "Reunion Island, France",
   locationLink: "https://www.google.com/maps/place/Reunion",
