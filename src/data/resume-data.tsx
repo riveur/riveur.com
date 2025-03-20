@@ -1,11 +1,12 @@
-import { GitHubIcon, XIcon } from "@/components/icons";
+import { DiscordIcon, GitHubIcon, XIcon } from "@/components/icons";
 import {
+  ClearFrameLogo,
   PaladiumProfileTrackerLogo,
   PalaGuideBotLogo
 } from "@/images/logos";
 
 export const RESUME_DATA = {
-  name: "Riveur",
+  name: "Riveur 🦈",
   initials: "Le R",
   location: "Reunion Island, France",
   locationLink: "https://www.google.com/maps/place/Reunion",
@@ -28,6 +29,11 @@ export const RESUME_DATA = {
         url: "https://x.com/Riveur_",
         icon: XIcon,
       },
+      {
+        name: "Discord",
+        url: "https://discord.com/users/339809990527156224",
+        icon: DiscordIcon,
+      }
     ],
   },
   skills: [
@@ -69,6 +75,23 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://palatracker.bromine.fr",
+      },
+    },
+    {
+      title: "Clear Frame",
+      techStack: [
+        "Fullstack Developer",
+        "TypeScript",
+        "React",
+        "AdonisJS",
+        "SQLite",
+      ],
+      description:
+        "This application transform your screen into an informative and visually appealing display",
+      logo: ClearFrameLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/riveur/clear-frame",
       },
     },
   ],
